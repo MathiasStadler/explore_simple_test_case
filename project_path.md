@@ -21,7 +21,6 @@ touch README.md \
 ```
 <!-- keep the format -->
 >[TIP!]
-FIXME:
 >Find and grep - useful for missing thinks
 ><!-- keep the format -->
 >```bash <!-- markdownlint-disable-line code-block-style -->
@@ -37,9 +36,6 @@ FIXME:
 ```bash <!-- markdownlint-disable-line code-block-style -->
 
 ```
-
-
-
 <!-- keep the format -->
 >[!NOTE]
 >Symbol to mark web external links [![alt text][1]](./README.md)
