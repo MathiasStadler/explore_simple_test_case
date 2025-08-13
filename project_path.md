@@ -1,6 +1,6 @@
-# project path of explore_simple_test_case
+# Project path of explore_simple_test_case
 
-## restart project - delete all files and create a new project :blush:
+## Restart project - delete all files and create a new project :blush:
 <!-- keep the format -->
 ```bash <!-- markdownlint-disable-line code-block-style -->
 touch README.md \
@@ -20,6 +20,23 @@ touch README.md \
 && mkdir tests.
 ```
 <!-- keep the format -->
+>[TIP!]
+FIXME:
+>Find and grep - useful for missing thinks
+><!-- keep the format -->
+>```bash <!-- markdownlint-disable-line code-block-style -->
+>find /home/trapapa/ -name "*.md" -exec grep "EOF" {} \;
+>```
+<!-- -->
+>[TIP!]
+
+<!-- keep the format -->
+
+## Create simplest test case
+<!-- keep the format -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+
+```
 
 
 
