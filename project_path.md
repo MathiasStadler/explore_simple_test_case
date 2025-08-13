@@ -1,5 +1,28 @@
 # project path of explore_simple_test_case
 
+## restart project - delete all files and create a new project :blush:
+<!-- keep the format -->
+```bash <!-- markdownlint-disable-line code-block-style -->
+touch README.md \
+&& ln -s README.md README \
+&& cargo init "." \
+&& cargo add rustfmt \
+&& rustup component add rustfmt \
+&& mkdir examples \
+&& cp src/main.rs examples/example.rs \
+&& sed -i -e 's/world/example/g' examples/example.rs \
+&& rustup show \
+&& rustup check \
+&& rustup toolchain uninstall stable \
+&& rustup toolchain install stable \
+&& rustup update  --force \
+&& rustup show \
+&& mkdir tests.
+```
+<!-- keep the format -->
+
+
+
 <!-- keep the format -->
 >[!NOTE]
 >Symbol to mark web external links [![alt text][1]](./README.md)
