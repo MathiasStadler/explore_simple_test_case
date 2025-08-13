@@ -5,6 +5,8 @@
         "innes",
         "parameterised",
         "rustc",
+        "testfn",
+        "unittests",
         "usize"
     ]
 }
